@@ -3,6 +3,8 @@ import re
 import tag
 import color
 import history
+import loc
+import cosmetic
 
 layout = [
 	[sg.Text("タグ", size=(15, 1)), sg.InputText()],
@@ -13,8 +15,11 @@ layout = [
 	[sg.Text("大州", size = (15, 1))],
 	[sg.Combo(["アジア", "ヨーロッパ", "アフリカ", "新大陸", "大洋州", "アメリカ諸州"], default_value="", readonly = True)],
 	[sg.Text("色", size = (15, 1)), sg.InputText()],
-	[sg.Text("首都", size = (15, 1)), sg.InputText()],
-	[sg.Submit(button_text = "実行")]
+	[sg.Text("首都", size=(15, 1)), sg.InputText()],
+	[sg.Text("政体英名", size=(15, 1)), sg.InputText()],
+	[sg.Text("正式名称", size=(15, 1)), sg.InputText()],
+	[sg.Submit(button_text="実行")],
+	[sg.Submit(button_text="cosmetic")]
 ]
 
 window = sg.Window("国家タグ追加", layout)
@@ -49,10 +54,21 @@ while True:
 			i += 1
 			print("重複したタグが存在している")
 		if (i == 0):
-			print("実行")
+			print("国家タグ生成")
 			tag.edit_country_tags(values[0], values[1], values[3])
 			color.edit_color(values[0], values[1], values[4], add_color)
 			history.edit_history(values[0], values[2], values[6])
+			loc.add_loc(values[0], values[1], values[4])
 		print(i)
-				
+	if event == "政体名付き国名生成":
+		i = 0
+		if (len(values[0]) != 3):
+			i += 1
+			print("タグが三文字でない")
+		if (values[4] == "") or (values[7] == "") or (values[8] == ""):
+			i += 1
+			print("空欄が存在する")
+		if (i == 0):
+			print("実行")
+			cosmetic.add_long_name(values[0], values[8], values[4], values[7])
 window.close()
