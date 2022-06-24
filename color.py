@@ -108,7 +108,7 @@ def edit_color(tag, ja_name, continent, color):
 	mod_america.sort()
 	dynamic_list.sort()
 
-	f = open('./hoi4/common/countries/test.txt', 'w', encoding='UTF-8')
+	f = open('./hoi4/common/countries/colors.txt', 'w', encoding='UTF-8')
 	f.write('##バニラ\n')
 	f.write('#アジア\n')
 	f.writelines(vanilla_asia)

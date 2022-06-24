@@ -19,7 +19,7 @@ layout = [
 	[sg.Text("政体英名", size=(15, 1)), sg.InputText()],
 	[sg.Text("正式名称", size=(15, 1)), sg.InputText()],
 	[sg.Submit(button_text="実行")],
-	[sg.Submit(button_text="cosmetic")]
+	[sg.Submit(button_text="政体名付き国名生成")]
 ]
 
 window = sg.Window("国家タグ追加", layout)
