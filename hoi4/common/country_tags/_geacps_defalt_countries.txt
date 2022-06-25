@@ -184,6 +184,7 @@ PEN	= "countries/Western Europe.txt"	#ペンシルベニア
 QEB	= "countries/Western Europe.txt"	#ケベック
 RHI	= "countries/Western Europe.txt"	#ラインラント
 RIL	= "countries/Western Europe.txt"	#ロードアイランド
+RME	= "countries/Western Europe.txt"	#ローマ
 SAR	= "countries/Western Europe.txt"	#ザール
 SCA	= "countries/Western Europe.txt"	#スカンディナヴィア
 SCR	= "countries/Western Europe.txt"	#サウスカロライナ

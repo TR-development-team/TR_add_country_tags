@@ -1448,6 +1448,10 @@
  RHI_DEF:0 "ライン"
  RHI_ADJ:0 "ライン"
  
+ RME:0 "ローマ"
+ RME_DEF:0 "ローマ"
+ RME_ADJ:0 "ローマ"
+ 
  RUS:0 "ロシア"
  RUS_DEF:0 "ロシア"
  RUS_ADJ:0 "ロシア"

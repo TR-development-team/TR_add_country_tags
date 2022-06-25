@@ -5,17 +5,19 @@ import re
 
 def add_def(list):
 	tmp = []
-	tmp2 = []
+	j = 0
 	tag2 = "000"
 	for i in list:
 		if(":" in i):
 			loc = i.split(":")
 			tag1 = i.split("_")
-			if(tag2 not in i):
-				tmp.append(" \n")
+			if(j != 0):
+				if(tag2 not in i):
+					tmp.append(" \n")
 			tag2 = tag1[0]
 			definitive = loc[0] + "_DEF:" + loc[1]
 			tmp.append(i + definitive)
+			j += 1
 	return tmp
 
 
@@ -107,26 +109,26 @@ def add_long_name(tag, ja_name, continent, government):
 	with open(f'./hoi4/localisation/english/_map/countries_long_l_english.yml', 'w', encoding='utf-8-sig') as f:
 		f.write('l_english:')
 		f.write('\n##バニラ')
-		f.write('\n#アジア')
+		f.write('\n#アジア\n')
 		f.writelines(add_def(vanilla_asia))
-		f.write(' \n#ヨーロッパ')
+		f.write(' \n#ヨーロッパ\n')
 		f.writelines(add_def(vanilla_europe))
-		f.write(' \n#アフリカ')
+		f.write(' \n#アフリカ\n')
 		f.writelines(add_def(vanilla_africa))
-		f.write(' \n#新大陸')
+		f.write(' \n#新大陸\n')
 		f.writelines(add_def(vanilla_new_continent))
-		f.write(' \n#大洋州')
+		f.write(' \n#大洋州\n')
 		f.writelines(add_def(vanilla_oceania))
 		f.write(' \n##GEACPS')
-		f.write(' \n#アジア')
+		f.write('\n#アジア\n')
 		f.writelines(add_def(mod_asia))
-		f.write(' \n#ヨーロッパ')
+		f.write(' \n#ヨーロッパ\n')
 		f.writelines(add_def(mod_europe))
-		f.write(' \n#アフリカ')
+		f.write(' \n#アフリカ\n')
 		f.writelines(add_def(mod_africa))
-		f.write(' \n#新大陸')
+		f.write(' \n#新大陸\n')
 		f.writelines(add_def(mod_new_continent))
-		f.write(' \n#大洋州')
+		f.write(' \n#大洋州\n')
 		f.writelines(add_def(mod_oceania))
-		f.write(' \n#アメリカ諸州')
+		f.write(' \n#アメリカ諸州\n')
 		f.writelines(add_def(mod_america))

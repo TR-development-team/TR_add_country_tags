@@ -1453,6 +1453,10 @@ RHI = {	#ラインラント
 	color = rgb { 84 194 110 }
 	color_ui = rgb { 84 194 110 }
 }
+RME = {	#ローマ
+	color = rgb { 142 0 28 }
+	color_ui = rgb { 142 0 28 }
+}
 RUS = {	#ロシア
 	color = rgb { 72 143 68 }
 	color_ui = rgb { 72 143 68 }
