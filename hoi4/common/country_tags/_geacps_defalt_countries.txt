@@ -220,6 +220,7 @@ CHE	= "countries/Eastern Europe.txt"	#チェチェン
 CRL	= "countries/Eastern Europe.txt"	#クールラント
 DAL	= "countries/Eastern Europe.txt"	#ダルマチア
 GAL	= "countries/Eastern Europe.txt"	#ガリツィア
+IGR	= "countries/Eastern Europe.txt"	#イングリア
 ING	= "countries/Eastern Europe.txt"	#イングーシ
 IST	= "countries/Eastern Europe.txt"	#イストリア
 LIV	= "countries/Eastern Europe.txt"	#リヴォニア

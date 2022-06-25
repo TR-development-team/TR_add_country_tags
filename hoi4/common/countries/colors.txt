@@ -1405,6 +1405,10 @@ IBE = {	#イベリア
 	color = rgb { 177 128 110 }
 	color_ui = rgb { 177 128 110 }
 }
+IGR = {	#イングリア
+	color = rgb { 255 196 37 }
+	color_ui = rgb { 255 196 37 }
+}
 ING = {	#イングーシ
 	color = rgb { 255 221 30 }
 	color_ui = rgb { 255 221 30 }
