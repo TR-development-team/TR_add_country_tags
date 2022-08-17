@@ -21,7 +21,7 @@ def clear_def_adj(list):
 	return tmp
 
 def add_loc(tag, ja_name, continent):
-	with open(f'./hoi4/localisation/english/_map/countries_l_english.yml', 'r', encoding='utf-8-sig') as o_file:
+	with open(f'./hoi4/localisation/english/_map/geacps_countries_l_english.yml', 'r', encoding='utf-8-sig') as o_file:
 		all_loc = o_file.readlines()
 
 	vanilla_list = []
@@ -97,7 +97,7 @@ def add_loc(tag, ja_name, continent):
 	mod_oceania.sort()
 	mod_america.sort()
 
-	with open(f'./hoi4/localisation/english/_map/countries_l_english.yml', 'w', encoding='utf-8-sig') as f:
+	with open(f'./hoi4/localisation/english/_map/geacps_countries_l_english.yml', 'w', encoding='utf-8-sig') as f:
 		f.write('l_english:\n')
 		f.write('##バニラ\n')
 		f.write('#アジア\n')

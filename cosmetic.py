@@ -30,7 +30,7 @@ def clear_def(list):
 
 
 def add_long_name(tag, ja_name, continent, government):
-	with open(f'./hoi4/localisation/english/_map/countries_long_l_english.yml', 'r', encoding='utf-8-sig') as o_file:
+	with open(f'./hoi4/localisation/english/_map/geacps_countries_long_l_english.yml', 'r', encoding='utf-8-sig') as o_file:
 		all_loc = o_file.readlines()
 
 	vanilla_list = []
@@ -106,7 +106,7 @@ def add_long_name(tag, ja_name, continent, government):
 	mod_oceania.sort()
 	mod_america.sort()
 	
-	with open(f'./hoi4/localisation/english/_map/countries_long_l_english.yml', 'w', encoding='utf-8-sig') as f:
+	with open(f'./hoi4/localisation/english/_map/geacps_countries_long_l_english.yml', 'w', encoding='utf-8-sig') as f:
 		f.write('l_english:')
 		f.write('\n##バニラ')
 		f.write('\n#アジア\n')
