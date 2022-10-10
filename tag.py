@@ -1,11 +1,11 @@
-def check_tag(tag):
-	f = open('./hoi4/common/country_tags/_geacps_defalt_countries.txt', 'r', encoding='UTF-8')
+def check_tag(mod, tag):
+	f = open('./'+ mod +'/common/country_tags/'+ mod +'_defalt_countries.txt', 'r', encoding='UTF-8')
 	all_tags = f.readlines()
 	f.close()
-	f = open('./hoi4/common/country_tags/zzz_default_countries.txt', 'r', encoding='UTF-8')
+	f = open('./'+ mod +'/common/country_tags/zzz_default_countries.txt', 'r', encoding='UTF-8')
 	all_tags.extend(f.readlines())
 	f.close()
-	f = open('./hoi4/common/country_tags/zzz_dynamic_countries.txt', 'r', encoding='UTF-8')
+	f = open('./'+ mod +'/common/country_tags/zzz_dynamic_countries.txt', 'r', encoding='UTF-8')
 	all_tags.extend(f.readlines())
 	f.close()
 	for i in all_tags:
@@ -13,8 +13,8 @@ def check_tag(tag):
 			return True
 	return False
 
-def edit_country_tags(tag, ja_name, culture):
-	f = open('./hoi4/common/country_tags/_geacps_defalt_countries.txt', 'r', encoding='UTF-8')
+def edit_country_tags(mod, tag, ja_name, culture):
+	f = open('./'+ mod +'/common/country_tags/'+ mod +'_defalt_countries.txt', 'r', encoding='UTF-8')
 
 	all_tags = f.readlines()
 
@@ -40,7 +40,7 @@ def edit_country_tags(tag, ja_name, culture):
 	africa_tags.sort()
 	south_america_tags.sort()
 
-	f = open('./hoi4/common/country_tags/_geacps_defalt_countries.txt', 'w', encoding='UTF-8')
+	f = open('./'+ mod +'/common/country_tags/'+ mod +'_defalt_countries.txt', 'w', encoding='UTF-8')
 	f.write('#アジア\n')
 	f.writelines(asia_tags)
 	f.write('\n')

@@ -20,8 +20,8 @@ def clear_def_adj(list):
 				tmp.append(i)
 	return tmp
 
-def add_loc(tag, ja_name, continent):
-	with open(f'./hoi4/localisation/english/map/geacps_countries_l_english.yml', 'r', encoding='utf-8-sig') as o_file:
+def add_loc(mod, tag, ja_name, continent):
+	with open(f'./{0}/localisation/japanese/map/{0}_countries_l_japanese.yml'.format(mod), 'r', encoding='utf-8-sig') as o_file:
 		all_loc = o_file.readlines()
 
 	vanilla_list = []
@@ -38,9 +38,9 @@ def add_loc(tag, ja_name, continent):
 	mod_oceania = []
 	mod_america = []
 
-	for i in range(all_loc.index('##バニラ\n') + 1, all_loc.index('##GEACPS\n') - 1):
+	for i in range(all_loc.index('##バニラ\n') + 1, all_loc.index('##追加国家\n') - 1):
 		vanilla_list.append(all_loc[i])
-	for i in range(all_loc.index('##GEACPS\n') + 1, len(all_loc)):
+	for i in range(all_loc.index('##追加国家\n') + 1, len(all_loc)):
 		mod_list.append(all_loc[i])
 
 	color.division_continent(vanilla_list, "#アジア\n", "#ヨーロッパ\n", vanilla_asia)
@@ -97,8 +97,8 @@ def add_loc(tag, ja_name, continent):
 	mod_oceania.sort()
 	mod_america.sort()
 
-	with open(f'./hoi4/localisation/english/map/geacps_countries_l_english.yml', 'w', encoding='utf-8-sig') as f:
-		f.write('l_english:\n')
+	with open(f'./{0}/localisation/japanese/map/{0}_countries_l_japanese.yml', 'w', encoding='utf-8-sig') as f:
+		f.write('l_japanese:\n')
 		f.write('##バニラ\n')
 		f.write('#アジア\n')
 		f.writelines(add_def_adj(vanilla_asia))
@@ -110,7 +110,7 @@ def add_loc(tag, ja_name, continent):
 		f.writelines(add_def_adj(vanilla_new_continent))
 		f.write('#大洋州\n')
 		f.writelines(add_def_adj(vanilla_oceania))
-		f.write('##GEACPS\n')
+		f.write('##追加国家\n')
 		f.write('#アジア\n')
 		f.writelines(add_def_adj(mod_asia))
 		f.write('#ヨーロッパ\n')

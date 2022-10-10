@@ -1,5 +1,5 @@
-def check_color(color):
-	f = open('./hoi4/common/countries/colors.txt', 'r', encoding='UTF-8')
+def check_color(mod, color):
+	f = open('./{}/common/countries/colors.txt'.format(mod), 'r', encoding='UTF-8')
 	all_color = f.readlines()
 	f.close()
 	for i in all_color:
@@ -25,8 +25,8 @@ def joint_country(l):
 		i += 1
 	return t2
 
-def edit_color(tag, ja_name, continent, color):
-	f = open('./hoi4/common/countries/colors.txt', 'r', encoding = 'UTF-8')
+def edit_color(mod, tag, ja_name, continent, color):
+	f = open('./{}/common/countries/colors.txt'.format(mod), 'r', encoding='UTF-8')
 	all_color = f.readlines()
 	f.close()
 
@@ -45,9 +45,9 @@ def edit_color(tag, ja_name, continent, color):
 	mod_oceania = []
 	mod_america = []
 
-	for i in range(0, all_color.index('##GEACPS\n') - 1):
+	for i in range(0, all_color.index('##追加国家\n') - 1):
 		vanilla_list.append(all_color[i])
-	for i in range(all_color.index('##GEACPS\n') + 1, all_color.index('##動的国家\n') - 1):
+	for i in range(all_color.index('##追加国家\n') + 1, all_color.index('##動的国家\n') - 1):
 		mod_list.append(all_color[i])
 	for i in range(all_color.index('##動的国家\n') + 1, len(all_color)):
 		dynamic_list.append(all_color[i])
@@ -108,7 +108,7 @@ def edit_color(tag, ja_name, continent, color):
 	mod_america.sort()
 	dynamic_list.sort()
 
-	f = open('./hoi4/common/countries/colors.txt', 'w', encoding='UTF-8')
+	f = open('./{}/common/countries/colors.txt'.format(mod), 'w', encoding='UTF-8')
 	f.write('##バニラ\n')
 	f.write('#アジア\n')
 	f.writelines(vanilla_asia)
@@ -125,7 +125,7 @@ def edit_color(tag, ja_name, continent, color):
 	f.write('#大洋州\n')
 	f.writelines(vanilla_oceania)
 	f.write('\n')
-	f.write('##GEACPS\n')
+	f.write('##追加国家\n')
 	f.write('#アジア\n')
 	f.writelines(mod_asia)
 	f.write('\n')
