@@ -8,9 +8,13 @@ class CountryTags:	#国家タグ
 	
 	def select_file(self, type):
 		if type == "バニラ":
-			return open('./{0}/common/country_tags/zzz_defalt_countries.txt'.format(self.mod_name), 'w', encoding = 'UTF-8')
+			return open('./{0}/common/country_tags/zzz_default_countries.txt'.format(self.mod_name), 'w', encoding = 'UTF-8')
 		elif type == "追加国家":
-			return open('./{0}/common/country_tags/{0}_defalt_countries.txt'.format(self.mod_name), 'w', encoding='UTF-8')
+			return open('./{0}/common/country_tags/{0}_default_countries.txt'.format(self.mod_name), 'w', encoding='UTF-8')
+		elif type == "複製国家":
+			return open('./{0}/common/country_tags/{0}_duplication_countries.txt'.format(self.mod_name), 'w', encoding='UTF-8')
+		elif type == "特殊国家":
+			return open('./{0}/common/country_tags/{0}_special_countries.txt'.format(self.mod_name), 'w', encoding='UTF-8')
 		elif type == "動的国家":
 			return open('./{0}/common/country_tags/zzz_dynamic_countries.txt'.format(self.mod_name), 'w', encoding='UTF-8')
 	
@@ -18,7 +22,7 @@ class CountryTags:	#国家タグ
 		self.file = self.select_file(type)
 		tmp = 0
 		for self.culture in self.culture_list:
-			if tmp == 0:	self.file.write("\n")
+			if tmp != 0:	self.file.write("\n")
 			self.list = database.csv_filter_sort(database.csv_filter(self.country_data, "type", type), "culture", self.culture, "tag")
 			self.file.write('#{}\n'.format(self.culture))
 			for t in self.list:
@@ -26,7 +30,11 @@ class CountryTags:	#国家タグ
 			tmp += 1
 	
 	def main(self):
+		self.add_tag("バニラ")
 		self.add_tag("追加国家")
+		# self.add_tag("動的国家")
+		# self.add_tag("複製国家")
+		# self.add_tag("特殊国家")
 
 class CountryColors:	#国家カラー
 	def __init__(self, mod_name):
@@ -52,10 +60,30 @@ class CountryColors:	#国家カラー
 		for self.type in self.type_list:
 			self.file.write('##{}\n'.format(self.type))
 			for self.continent in self.continent_list:
-				self.list = database.csv_filter_sort(database.csv_filter(
-					self.country_data, "type", self.type), "continent", self.continent, "tag")
+				self.list = database.csv_filter_sort(database.csv_filter(self.country_data, "type", self.type), "continent", self.continent, "tag")
 				self.file.write('#{}\n'.format(self.continent))
 				self.set_country_color(self.list)
+				self.file.write('\n')
+		if "複製国家" in [d.get("type") for d in self.country_data]:
+			self.file.write('##複製国家\n')
+			self.duplication_country_data = database.csv_filter(self.country_data, "type", "複製国家")
+			self.original_tag_list = list(set([d.get("continent") for d in self.duplication_country_data]))
+			self.original_tag_list.sort()
+			for self.continent in self.original_tag_list:
+				self.list = database.csv_filter_sort(self.duplication_country_data, "continent", self.continent, "tag")
+				self.file.write('#{}\n'.format(self.continent))
+				self.set_country_color(self.list)
+				self.file.write('\n')
+		if "特殊国家" in [d.get("type") for d in self.country_data]:
+			self.file.write('##特殊国家\n')
+			self.special_country_data = database.csv_filter(self.country_data, "type", "特殊国家")
+			self.original_tag_list = list(set([d.get("continent") for d in self.special_country_data]))
+			self.original_tag_list.sort()
+			for self.continent in self.original_tag_list:
+				self.list = database.csv_filter_sort(self.special_country_data, "continent", self.continent, "tag")
+				self.file.write('#{}\n'.format(self.continent))
+				self.set_country_color(self.list)
+				self.file.write('\n')
 		self.file.write('##動的国家\n')
 		self.dynamic_country = database.csv_filter_sort(
 			self.country_data, "type", "動的国家", "tag")
@@ -83,7 +111,20 @@ class CountryNames:	#国名
 					self.file.write(' {}:0 "{}"\n'.format(t["tag"], t["japanese"]))
 					self.file.write(' {}_DEF:0 "{}"\n'.format(t["tag"], t["japanese"]))
 					self.file.write(' {}_ADJ:0 "{}"\n \n'.format(t["tag"], t["japanese"]))
-	
+		if "複製国家" in [d.get("type") for d in self.country_data]:
+			self.file = open('./{0}/localisation/japanese/map/{0}_countries_duplication_l_japanese.yml'.format(self.mod_name), 'w', encoding = 'UTF-8-sig')
+			self.file.write("l_japanese:\n")
+			self.file.write('##複製国家\n')
+			self.duplication_country_data = database.csv_filter(self.country_data, "type", "複製国家")
+			self.original_tag_list = list(set([d.get("continent") for d in self.duplication_country_data]))
+			self.original_tag_list.sort()
+			for self.continent in self.original_tag_list:
+				self.list = database.csv_filter_sort(self.duplication_country_data, "continent", self.continent, "tag")
+				self.file.write('#{}\n'.format(self.continent))
+				for t in self.list:
+					self.file.write(' {}:0 "{}"\n'.format(t["tag"], t["japanese"]))
+					self.file.write(' {}_DEF:0 "{}"\n'.format(t["tag"], t["japanese"]))
+					self.file.write(' {}_ADJ:0 "{}"\n \n'.format(t["tag"], t["japanese"]))
 	def main(self):
 		self.add_country_name()
 

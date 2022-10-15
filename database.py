@@ -53,3 +53,7 @@ def check_folder(mod_name):
 	if not os.path.exists(localisation_folder):
 		os.makedirs(localisation_folder)
 	
+def generation_value(mod_name, csv_name, key_name):
+	list_1 = csv_open(mod_name, csv_name)
+	list_2 = [d.get(key_name) for d in list_1]
+	return list(set(list_2))
