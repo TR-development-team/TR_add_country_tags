@@ -266,6 +266,7 @@ BAS,バスク,186 201 244,Western Europe,ヨーロッパ,追加国家
 BHR,バーレーン,206 17 38,Middle East,アジア,追加国家
 BLK,バルカン,110 80 168,Eastern Europe,ヨーロッパ,追加国家
 BOM,ボンベイ,189 183 107,Asia,アジア,追加国家
+BRB,バルバドス,170 145 68,South America,新大陸,追加国家
 BRN,ブルネイ,245 225 20,Asia,アジア,追加国家
 CAL,カリフォルニア,237 224 215,Western Europe,アメリカ諸州,追加国家
 CBA,千葉,0 28 168,Asia,アジア,追加国家
@@ -652,7 +653,7 @@ D96,,87 89 205,,,動的国家
 D97,,156 110 86,,,動的国家
 D98,,114 122 121,,,動的国家
 D99,,64 76 77,,,動的国家
-0,国家選択画面用,0 0 0,South America,,特殊国家
+000,国家選択画面用,0 0 0,South America,,特殊国家
 AN0,,0 0 0,Eastern Europe,,特殊国家
 ACO,貴族評議会,127 79 22,Eastern Europe,RUS,複製国家
 ALF,アメリカ自由連盟,250 250 210,Western Europe,USA,複製国家

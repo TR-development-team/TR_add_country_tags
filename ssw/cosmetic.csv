@@ -251,9 +251,7 @@ GER,democratic_republic_2,,民主共和国
 GER,democratic_republic_3,,民主共和国
 GER,democratic_republic_4,,民主共和国
 GER,eichmann_provisional_government,,・アイヒマン臨時政府
-GER,defence_force_emergency_command,,国防軍非常司令部
 GER,empire,,帝国
-GER,empire_1,,帝国
 GER,federal_republic,,連邦共和国
 GER,federal_republic_0,,連邦共和国
 GER,federal_republic_1,,連邦共和国
@@ -392,6 +390,7 @@ JAK,kingdom,,王国
 JAM,republic,,共和国
 JAM,republic_classical_communism,,社会主義共和国
 JAM,republic_progressive_communism,,社会主義共和国
+JAP,18th_army_occupied_area,,第18軍占領地域
 JAP,buraku_liberation_league,,部落解放同盟
 JAP,combined_syndicates,,労働組合連盟
 JAP,confederate_states,,連合国
@@ -605,6 +604,7 @@ NIU,republic,,共和国
 NMB,republic,,共和国
 NOA,republic,,共和国
 NOR,empire,,帝国
+NOR,empire_1,,帝国
 NOR,kingdom,,王国
 NOR,kingdom_1,,王国
 NOR,liberation_front,,解放戦線
