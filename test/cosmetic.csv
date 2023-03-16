@@ -104,7 +104,7 @@ GXC,republic,,共和国
 
 GXC,soviet_government,,ソビエト政府
 
-GXC,warlord,,軍閥
+GXC,military_clique,,軍閥
 
 IND,empire,,帝国
 
@@ -180,7 +180,7 @@ MAN,soviet_government,,ソビエト政府
 
 MAN,state,,国
 
-MAN,warlord,,軍閥
+MAN,military_clique,,軍閥
 
 MEN,autonomous_federation,,自治邦
 
@@ -190,7 +190,7 @@ MEN,soviet_government,,ソビエト政府
 
 MEN,united_autonomous_government,,聯盟自治政府
 
-MEN,warlord,,軍閥
+MEN,military_clique,,軍閥
 
 MLD,republic,,共和国
 
@@ -232,11 +232,11 @@ SHX,republic,,共和国
 
 SHX,soviet_government,,ソビエト政府
 
-SHX,warlord,,軍閥
+SHX,military_clique,,軍閥
 
 SIA,kingdom,,王国
 
-SIK,ma_warlord,,馬軍閥
+SIK,ma_military_clique,,馬軍閥
 
 SIK,minguo,,民国
 
@@ -244,7 +244,7 @@ SIK,republic,,共和国
 
 SIK,soviet_government,,ソビエト政府
 
-SIK,warlord,,軍閥
+SIK,military_clique,,軍閥
 
 SKH,republic,,共和国
 
@@ -308,7 +308,7 @@ YUN,minguo,,民国
 
 YUN,republic,,共和国
 
-YUN,warlord,,軍閥
+YUN,military_clique,,軍閥
 
 ADU,republic,,共和国
 
@@ -477,6 +477,8 @@ GLC,socialist_republic,,社会主義共和国
 GRE,democratic_republic,,民主共和国
 
 GRE,kingdom,,王国
+
+GRE,kingdom_government,,王国政府
 
 GRE,provisional_democratic_government,,臨時民主政府
 
@@ -1100,7 +1102,7 @@ ANH,republic,,共和国
 
 ANH,soviet_government,,ソビエト政府
 
-ANH,warlord,,軍閥
+ANH,military_clique,,軍閥
 
 ANN,state,,国
 
@@ -1146,7 +1148,7 @@ DLI,free_city,自由都市,
 
 DLI,soviet_government,,ソビエト政府
 
-DLI,warlord,,軍閥
+DLI,military_clique,,軍閥
 
 DNU,republic,,共和国
 
@@ -1166,9 +1168,9 @@ FUJ,republic,,共和国
 
 FUJ,soviet_government,,ソビエト政府
 
-FUJ,warlord,,軍閥
+FUJ,military_clique,,軍閥
 
-GAN,ma_warlord,,馬軍閥
+GAN,ma_military_clique,,馬軍閥
 
 GAN,minguo,,民国
 
@@ -1176,7 +1178,7 @@ GAN,republic,,共和国
 
 GAN,soviet_government,,ソビエト政府
 
-GAN,warlord,,軍閥
+GAN,military_clique,,軍閥
 
 GND,minguo,,民国
 
@@ -1184,7 +1186,7 @@ GND,republic,,共和国
 
 GND,soviet_government,,ソビエト政府
 
-GND,warlord,,軍閥
+GND,military_clique,,軍閥
 
 GZH,minguo,,民国
 
@@ -1192,7 +1194,7 @@ GZH,republic,,共和国
 
 GZH,soviet_government,,ソビエト政府
 
-GZH,warlord,,軍閥
+GZH,military_clique,,軍閥
 
 HAS,kingdom,,王国
 
@@ -1206,7 +1208,7 @@ HEB,republic,,共和国
 
 HEB,soviet_government,,ソビエト政府
 
-HEB,warlord,,軍閥
+HEB,military_clique,,軍閥
 
 HEN,minguo,,民国
 
@@ -1214,7 +1216,7 @@ HEN,republic,,共和国
 
 HEN,soviet_government,,ソビエト政府
 
-HEN,warlord,,軍閥
+HEN,military_clique,,軍閥
 
 HEZ,hashemite_kingdom,,・ハシミテ王国
 
@@ -1226,13 +1228,13 @@ HIN,republic,,共和国
 
 HIN,soviet_government,,ソビエト政府
 
-HIN,warlord,,軍閥
+HIN,military_clique,,軍閥
 
 HKG,free_city,自由都市,
 
 HKG,soviet_government,,ソビエト政府
 
-HKG,warlord,,軍閥
+HKG,military_clique,,軍閥
 
 HNN,minguo,,民国
 
@@ -1240,7 +1242,7 @@ HNN,republic,,共和国
 
 HNN,soviet_government,,ソビエト政府
 
-HNN,warlord,,軍閥
+HNN,military_clique,,軍閥
 
 HUB,minguo,,民国
 
@@ -1248,7 +1250,7 @@ HUB,republic,,共和国
 
 HUB,soviet_government,,ソビエト政府
 
-HUB,warlord,,軍閥
+HUB,military_clique,,軍閥
 
 HYD,kingdom,,王国
 
@@ -1264,7 +1266,7 @@ JGS,republic,,共和国
 
 JGS,soviet_government,,ソビエト政府
 
-JGS,warlord,,軍閥
+JGS,military_clique,,軍閥
 
 JIA,minguo,,民国
 
@@ -1272,7 +1274,7 @@ JIA,republic,,共和国
 
 JIA,soviet_government,,ソビエト政府
 
-JIA,warlord,,軍閥
+JIA,military_clique,,軍閥
 
 JOH,republic,,共和国
 
@@ -1304,7 +1306,7 @@ MCA,free_city,自由都市,
 
 MCA,soviet_government,,ソビエト政府
 
-MCA,warlord,,軍閥
+MCA,military_clique,,軍閥
 
 MWN,republic,,共和国
 
@@ -1318,9 +1320,9 @@ NAN,free_city,自由都市,
 
 NAN,soviet_government,,ソビエト政府
 
-NAN,warlord,,軍閥
+NAN,military_clique,,軍閥
 
-NIG,ma_warlord,,馬軍閥
+NIG,ma_military_clique,,馬軍閥
 
 NIG,minguo,,民国
 
@@ -1328,7 +1330,7 @@ NIG,republic,,共和国
 
 NIG,soviet_government,,ソビエト政府
 
-NIG,warlord,,軍閥
+NIG,military_clique,,軍閥
 
 OTT,sublime_state,崇高なる,国
 
@@ -1348,9 +1350,9 @@ QAH,republic,,共和国
 
 QAH,soviet_government,,ソビエト政府
 
-QAH,warlord,,軍閥
+QAH,military_clique,,軍閥
 
-QIG,ma_warlord,,馬軍閥
+QIG,ma_military_clique,,馬軍閥
 
 QIG,minguo,,民国
 
@@ -1358,7 +1360,7 @@ QIG,republic,,共和国
 
 QIG,soviet_government,,ソビエト政府
 
-QIG,warlord,,軍閥
+QIG,military_clique,,軍閥
 
 QIN,minguo,,民国
 
@@ -1366,7 +1368,7 @@ QIN,republic,,共和国
 
 QIN,soviet_government,,ソビエト政府
 
-QIN,warlord,,軍閥
+QIN,military_clique,,軍閥
 
 RKH,republic,,共和国
 
@@ -1388,7 +1390,7 @@ SCH,republic,,共和国
 
 SCH,soviet_government,,ソビエト政府
 
-SCH,warlord,,軍閥
+SCH,military_clique,,軍閥
 
 SGH,free_city,自由都市,
 
@@ -1398,7 +1400,7 @@ SGH,international_settlement,,共同租界
 
 SGH,soviet_government,,ソビエト政府
 
-SGH,warlord,,軍閥
+SGH,military_clique,,軍閥
 
 SHA,minguo,,民国
 
@@ -1406,7 +1408,7 @@ SHA,republic,,共和国
 
 SHA,soviet_government,,ソビエト政府
 
-SHA,warlord,,軍閥
+SHA,military_clique,,軍閥
 
 SHD,minguo,,民国
 
@@ -1414,7 +1416,7 @@ SHD,republic,,共和国
 
 SHD,soviet_government,,ソビエト政府
 
-SHD,warlord,,軍閥
+SHD,military_clique,,軍閥
 
 SHN,republic,,共和国
 
@@ -1438,7 +1440,7 @@ SUY,republic,,共和国
 
 SUY,soviet_government,,ソビエト政府
 
-SUY,warlord,,軍閥
+SUY,military_clique,,軍閥
 
 SYE,democratic_republic,,民主共和国
 
@@ -1468,7 +1470,7 @@ TWN,soviet_government,,ソビエト政府
 
 TWN,state,,国
 
-TWN,warlord,,軍閥
+TWN,military_clique,,軍閥
 
 VAX,republic,,共和国
 
@@ -1480,7 +1482,7 @@ XIK,republic,,共和国
 
 XIK,soviet_government,,ソビエト政府
 
-XIK,warlord,,軍閥
+XIK,military_clique,,軍閥
 
 XIZ,minguo,,民国
 
@@ -1488,7 +1490,7 @@ XIZ,republic,,共和国
 
 XIZ,soviet_government,,ソビエト政府
 
-XIZ,warlord,,軍閥
+XIZ,military_clique,,軍閥
 
 ZHE,minguo,,民国
 
@@ -1496,7 +1498,7 @@ ZHE,republic,,共和国
 
 ZHE,soviet_government,,ソビエト政府
 
-ZHE,warlord,,軍閥
+ZHE,military_clique,,軍閥
 
 ZHI,minguo,,民国
 
@@ -1504,7 +1506,7 @@ ZHI,republic,,共和国
 
 ZHI,soviet_government,,ソビエト政府
 
-ZHI,warlord,,軍閥
+ZHI,military_clique,,軍閥
 
 ADR,co-principality,,共同公国
 
@@ -1706,9 +1708,9 @@ WLL,kingdom,,王国
 
 WLL,republic,,共和国
 
-ZAP,cossack_republic,,・コサック共和国
+ZPR,cossack_republic,,・コサック共和国
 
-ZAP,republic,,共和国
+ZPR,republic,,共和国
 
 AMB,federal_republic,,連邦共和国
 
@@ -2017,3 +2019,93 @@ WSC,republic,,共和国
 WYO,republic,,共和国
 
 WVI,republic,,共和国
+
+AZA,state,,国
+
+BEN,republic,,共和国
+
+BIA,republic,,共和国
+
+STM,union,,連合
+
+NVS,republic,,共和国
+
+NTL,kingdom,,王国
+
+NTL,republic,,共和国
+
+NTL,united_kingdom,,連合王国
+
+CRE,state,,国
+
+ION,republic,,共和国
+
+AEG,federation,,連邦
+
+FNG,military_clique,,軍閥
+
+FNG,free_city,自由都市,
+
+TIE,free_city,自由都市,
+
+TIE,soviet_government,,ソビエト政府
+
+TIE,military_clique,,軍閥
+
+FNG,soviet_government,,ソビエト政府
+
+KFT,republic,,共和国
+
+GOA,free_city,自由都市,
+
+POD,free_city,自由都市,
+
+HIL,emirate,,首長国
+
+NEJ,kingdom,,王国
+
+NEJ,sultanate,,・スルタン国
+
+TRK,federation,,連邦
+
+DVN,republic,,共和国
+
+SDT,republic,,共和国
+
+CHS,republic,,共和国
+
+INO,federation,,連邦
+
+KHB,republic,,共和国
+
+ZAP,federation,,連邦
+
+MOS,grand_duchy,,大公国
+
+MOS,free_city,自由都市,
+
+MRD,republic,,共和国
+
+URA,republic,,共和国
+
+RTN,grand_principality,,大公国
+
+KRC,republic,,共和国
+
+BRG,duchy,,公国
+
+TAI,federation,,連邦
+
+AFR,union,,連合
+
+APN,confederation,,連邦
+
+NRD,united_kingdom,,連合王国
+
+NRM,duchy,,公国
+
+VOS,federation,,連邦
+
+SLA,federation,,連邦
+
+KAM,republic,,共和国

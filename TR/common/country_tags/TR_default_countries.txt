@@ -1,0 +1,67 @@
+#Asia
+ANH	= "countries/Asia.txt"	#安徽
+BLI	= "countries/Asia.txt"	#バリ
+BOR	= "countries/Asia.txt"	#ボルネオ
+BRN	= "countries/Asia.txt"	#ブルネイ
+CCS	= "countries/Asia.txt"	#コーカサス
+CNK	= "countries/Asia.txt"	#重慶
+DVN	= "countries/Asia.txt"	#ドラヴィダ・ナードゥ
+ETR	= "countries/Asia.txt"	#東トルキスタン
+FUJ	= "countries/Asia.txt"	#福建
+GAN	= "countries/Asia.txt"	#甘粛
+GND	= "countries/Asia.txt"	#広東
+HEN	= "countries/Asia.txt"	#河南
+HNN	= "countries/Asia.txt"	#湖南
+HYD	= "countries/Asia.txt"	#ハイデラバード
+INC	= "countries/Asia.txt"	#インドシナ
+KUM	= "countries/Asia.txt"	#クムル
+NIG	= "countries/Asia.txt"	#寧夏
+NKR	= "countries/Asia.txt"	#新韓
+OTT	= "countries/Asia.txt"	#オスマン
+PJB	= "countries/Asia.txt"	#パンジャーブ
+QIG	= "countries/Asia.txt"	#青海
+RJN	= "countries/Asia.txt"	#瑞金
+SCC	= "countries/Asia.txt"	#南コーカサス
+SCH	= "countries/Asia.txt"	#四川
+SGH	= "countries/Asia.txt"	#上海
+SHD	= "countries/Asia.txt"	#山東
+TRK	= "countries/Asia.txt"	#トルキスタン
+WHN	= "countries/Asia.txt"	#武漢
+ZHI	= "countries/Asia.txt"	#直隷
+
+#Middle East
+ARB	= "countries/Middle East.txt"	#アラブ
+
+#Commonwealth
+
+#Western Europe
+BDN	= "countries/Western Europe.txt"	#バーデン
+CAL	= "countries/Western Europe.txt"	#カリフォルニア
+DAL	= "countries/Western Europe.txt"	#ダルマチア
+GBR	= "countries/Western Europe.txt"	#グレートブリテン
+HES	= "countries/Western Europe.txt"	#ヘッセン
+KIL	= "countries/Western Europe.txt"	#キール
+NTL	= "countries/Western Europe.txt"	#ネーデルラント
+RHI	= "countries/Western Europe.txt"	#ライン
+TEX	= "countries/Western Europe.txt"	#テキサス
+
+#Eastern Europe
+BLT	= "countries/Eastern Europe.txt"	#バルト
+GAL	= "countries/Eastern Europe.txt"	#ガリツィア
+MHN	= "countries/Eastern Europe.txt"	#マフノフシチナ
+RAT	= "countries/Eastern Europe.txt"	#レーテ
+RUS	= "countries/Eastern Europe.txt"	#ロシア
+SIB	= "countries/Eastern Europe.txt"	#シベリア
+
+#Africa
+KAT	= "countries/Africa.txt"	#カタンガ
+KIV	= "countries/Africa.txt"	#キヴ
+NAF	= "countries/Africa.txt"	#北アフリカ
+SKT	= "countries/Africa.txt"	#ソコト
+WAF	= "countries/Africa.txt"	#西アフリカ
+
+#South America
+AMZ	= "countries/South America.txt"	#アマゾン
+CAC	= "countries/South America.txt"	#中央アメリカ
+EQB	= "countries/South America.txt"	#赤道ブラジル
+SBR	= "countries/South America.txt"	#南ブラジル

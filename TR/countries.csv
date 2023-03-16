@@ -1,0 +1,326 @@
+tag,japanese,color,culture,continent,type
+ABK,アブハジア,0 153 62,Middle East,アジア,バニラ
+AFG,アフガニスタン,64 160 167,Middle East,アジア,バニラ
+ALT,アルタイ,214 235 255,Asia,アジア,バニラ
+ARM,アルメニア,176 102 180,Middle East,アジア,バニラ
+AZR,アゼルバイジャン,69 151 49,Middle East,アジア,バニラ
+BAN,バングラデシュ,0 106 78,Asia,アジア,バニラ
+BHU,ブータン,172 122 88,Asia,アジア,バニラ
+BRM,ビルマ,76 153 0,Asia,アジア,バニラ
+BUK,ブハラ,0 154 48,Asia,アジア,バニラ
+BYA,ブリヤート,3 44 157,Asia,アジア,バニラ
+CAM,カンボジア,100 71 150,Asia,アジア,バニラ
+CHI,中華,0 0 149,Asia,アジア,バニラ
+CKK,チュクチ,111 95 120,Asia,アジア,バニラ
+FEA,極東,1 28 88,Asia,アジア,バニラ
+GEO,グルジア,255 150 150,Middle East,アジア,バニラ
+GXC,広西,129 142 158,Asia,アジア,バニラ
+IND,インド,239 201 2,Asia,アジア,バニラ
+INS,インドネシア,40 50 120,Asia,アジア,バニラ
+IRQ,イラク,178 114 99,Middle East,アジア,バニラ
+ISR,イスラエル,0 73 144,Middle East,アジア,バニラ
+JAP,日本,252 150 120,Asia,アジア,バニラ
+JOR,ヨルダン,111 55 78,Middle East,アジア,バニラ
+KAZ,カザフスタン,0 175 202,Asia,アジア,バニラ
+KHI,ヒヴァ,16 46 42,Asia,アジア,バニラ
+KKP,カラカルパクスタン,255 195 29,Asia,アジア,バニラ
+KOR,韓,41 23 110,Asia,アジア,バニラ
+KUR,クルディスタン,234 179 30,Middle East,アジア,バニラ
+KUW,クウェート,153 76 0,Middle East,アジア,バニラ
+KYR,キルギス,255 116 0,Asia,アジア,バニラ
+LAO,ラオス,176 102 136,Asia,アジア,バニラ
+LEB,レバノン,130 150 60,Middle East,アジア,バニラ
+MAL,マラヤ,213 169 121,Asia,アジア,バニラ
+MAN,満州,255 120 71,Asia,アジア,バニラ
+MEN,蒙古,185 255 152,Asia,アジア,バニラ
+MLD,モルディブ,204 0 102,Asia,アジア,バニラ
+MON,モンゴル,92 92 92,Asia,アジア,バニラ
+NEP,ネパール,152 130 191,Asia,アジア,バニラ
+OMA,オマーン,195 150 93,Middle East,アジア,バニラ
+PAK,パキスタン,1 65 28,Asia,アジア,バニラ
+PAL,パレスチナ,170 125 80,Middle East,アジア,バニラ
+PER,ペルシャ,71 113 97,Middle East,アジア,バニラ
+PHI,フィリピン,102 43 89,Asia,アジア,バニラ
+QAT,カタール,128 0 0,Middle East,アジア,バニラ
+SAU,サウード,0 108 53,Middle East,アジア,バニラ
+SHA,陝西,193 159 0,Asia,アジア,バニラ
+SHX,山西,226 188 35,Asia,アジア,バニラ
+SIA,シャム,171 190 152,Asia,アジア,バニラ
+SIK,新疆,214 190 74,Asia,アジア,バニラ
+SKH,サハ,158 213 255,Asia,アジア,バニラ
+SRL,スリランカ,141 21 58,Asia,アジア,バニラ
+SYR,シリア,100 100 150,Middle East,アジア,バニラ
+TAJ,タジキスタン,51 102 0,Asia,アジア,バニラ
+TAY,タイミル,0 129 196,Asia,アジア,バニラ
+TIB,チベット,168 166 167,Asia,アジア,バニラ
+TMS,トルクメニスタン,0 132 61,Asia,アジア,バニラ
+TRC,トルーシャル・オマーン,102 102 0,Middle East,アジア,バニラ
+TUR,トルコ,0227 10 23,Middle East,アジア,バニラ
+TUV,トゥヴァ,99 177 229,Asia,アジア,バニラ
+UZB,ウズベキスタン,0 102 102,Asia,アジア,バニラ
+VIN,ベトナム,230 223 50,Asia,アジア,バニラ
+VLA,ウラジオストク,20 134 20,Asia,アジア,バニラ
+XIB,西北,70 170 180,Asia,アジア,バニラ
+YAM,ヤマリア,0 128 255,Asia,アジア,バニラ
+YEM,イエメン,233 155 81,Middle East,アジア,バニラ
+YGR,ユグラ,13 146 136,Asia,アジア,バニラ
+YUN,雲南,143 20 20,Asia,アジア,バニラ
+AFA,アファール,153 0 51,Africa,アフリカ,バニラ
+ALG,アルジェリア,0 98 51,Africa,アフリカ,バニラ
+AMH,アムハラ,51 102 153,Africa,アフリカ,バニラ
+ANG,アンゴラ,168 80 16,Africa,アフリカ,バニラ
+BEG,ベニシャングル＝グムズ,255 212 128,Africa,アフリカ,バニラ
+BOT,ボツワナ,182 212 233,Africa,アフリカ,バニラ
+BRD,ブルンジ,45 186 71,Africa,アフリカ,バニラ
+CAR,中央アフリカ,210 16 52,Africa,アフリカ,バニラ
+CHA,チャド,254 203 0,Africa,アフリカ,バニラ
+CMR,カメルーン,0 122 94,Africa,アフリカ,バニラ
+COG,コンゴ,216 212 73,Africa,アフリカ,バニラ
+DAH,ダホメ,139 122 53,Africa,アフリカ,バニラ
+DJI,ジブチ,76 176 168,Africa,アフリカ,バニラ
+EAF,東アフリカ,150 250 150,Africa,アフリカ,バニラ
+EGY,エジプト,192 147 0,Africa,アフリカ,バニラ
+EQG,赤道ギニア,0 115 206,Africa,アフリカ,バニラ
+ERI,エリトリア,170 211 232,Africa,アフリカ,バニラ
+ETH,エチオピア,174 206 65,Africa,アフリカ,バニラ
+GAB,ガボン,58 117 196,Africa,アフリカ,バニラ
+GAM,ガンビア,58 119 40,Africa,アフリカ,バニラ
+GBA,ガンベラ,0 153 51,Africa,アフリカ,バニラ
+GHA,ガーナ,116 132 31,Africa,アフリカ,バニラ
+GNA,ギニア,0 148 96,Africa,アフリカ,バニラ
+GNB,ギニアビサウ,126 183 47,Africa,アフリカ,バニラ
+HAR,ハラール,242 242 242,Africa,アフリカ,バニラ
+IVO,コートジボワール,247 127 0,Africa,アフリカ,バニラ
+KEN,ケニア,145 103 14,Africa,アフリカ,バニラ
+LBA,リビア,35 158 70,Africa,アフリカ,バニラ
+LIB,リベリア,76 53 104,Africa,アフリカ,バニラ
+MAD,マダガスカル,189 113 112,Africa,アフリカ,バニラ
+MCG,中部コンゴ,73 103 124,Africa,アフリカ,バニラ
+MLI,マリ,20 181 58,Africa,アフリカ,バニラ
+MLW,マラウィ,153 204 0,Africa,アフリカ,バニラ
+MOR,モロッコ,193 39 45,Africa,アフリカ,バニラ
+MRT,モーリタニア,198 174 11,Africa,アフリカ,バニラ
+MZB,モザンビーク,255 186 5,Africa,アフリカ,バニラ
+NGA,ナイジェリア,0 135 81,Africa,アフリカ,バニラ
+NGE,ニジェール,224 82 6,Africa,アフリカ,バニラ
+NMB,ナミビア,0 53 128,Africa,アフリカ,バニラ
+ORO,オロミア,255 77 77,Africa,アフリカ,バニラ
+RIF,リーフ,0 100 50,Africa,アフリカ,バニラ
+RWA,ルワンダ,185 187 2,Africa,アフリカ,バニラ
+SAF,南アフリカ,195 107 160,Africa,アフリカ,バニラ
+SEN,セネガル,76 165 64,Africa,アフリカ,バニラ
+SID,シダマ,102 102 255,Africa,アフリカ,バニラ
+SIE,シエラレオネ,180 230 189,Africa,アフリカ,バニラ
+SOM,ソマリア,0 128 131,Africa,アフリカ,バニラ
+SUD,スーダン,135 144 180,Africa,アフリカ,バニラ
+TIG,ティグレ,230 71 21,Africa,アフリカ,バニラ
+TOG,トーゴ,0 106 78,Africa,アフリカ,バニラ
+TUN,チュニジア,146 134 57,Africa,アフリカ,バニラ
+TZN,タンザニア,215 204 28,Africa,アフリカ,バニラ
+UGA,ウガンダ,174 73 1,Africa,アフリカ,バニラ
+VOL,オートボルタ,180 170 170,Africa,アフリカ,バニラ
+WES,西サハラ,255 178 102,Africa,アフリカ,バニラ
+ZAM,ザンビア,8 48 0,Africa,アフリカ,バニラ
+ZIM,ジンバブエ,0 100 0,Africa,アフリカ,バニラ
+ADU,アンダルシア,240 230 155,Western Europe,ヨーロッパ,バニラ
+ALB,アルバニア,149 45 102,Eastern Europe,ヨーロッパ,バニラ
+AUS,オーストリア,194 198 215,Western Europe,ヨーロッパ,バニラ
+BAY,バイエルン,0 152 212,Western Europe,ヨーロッパ,バニラ
+BEL,ベルギー,250 224 66,Western Europe,ヨーロッパ,バニラ
+BLR,ベラルーシ,180 220 190,Eastern Europe,ヨーロッパ,バニラ
+BOS,ボスニア,255 240 40,Eastern Europe,ヨーロッパ,バニラ
+BRI,ブルターニュ,170 170 170,Western Europe,ヨーロッパ,バニラ
+BSK,バシコルトスタン,85 157 166,Eastern Europe,ヨーロッパ,バニラ
+BUL,ブルガリア,0 150 110,Eastern Europe,ヨーロッパ,バニラ
+CAT,カタルーニャ,255 128 0,Western Europe,ヨーロッパ,バニラ
+CHU,チュヴァシ,201 117 6,Eastern Europe,ヨーロッパ,バニラ
+COR,コルシカ,106 178 46,Western Europe,ヨーロッパ,バニラ
+CRI,クリミア,0 163 221,Eastern Europe,ヨーロッパ,バニラ
+CRO,クロアチア,23 23 150,Eastern Europe,ヨーロッパ,バニラ
+CYP,キプロス,237 128 0,Western Europe,ヨーロッパ,バニラ
+CZE,チェコ,17 69 126,Eastern Europe,ヨーロッパ,バニラ
+DAG,ダゲスタン,0 145 64,Eastern Europe,ヨーロッパ,バニラ
+DEN,デンマーク,198 12 48,Western Europe,ヨーロッパ,バニラ
+DNZ,ダンツィヒ,191 0 0,Eastern Europe,ヨーロッパ,バニラ
+DON,ドン,247 197 0,Eastern Europe,ヨーロッパ,バニラ
+EGR,東ドイツ,147 0 0,Eastern Europe,ヨーロッパ,バニラ
+ENG,イングランド,205 32 44,Commonwealth,ヨーロッパ,バニラ
+EST,エストニア,0 114 206,Eastern Europe,ヨーロッパ,バニラ
+FIN,フィンランド,205 212 228,Eastern Europe,ヨーロッパ,バニラ
+FRA,フランス,0 35 149,Western Europe,ヨーロッパ,バニラ
+GER,ドイツ,102 89 86,Western Europe,ヨーロッパ,バニラ
+GLC,ガリシア,0 153 204,Western Europe,ヨーロッパ,バニラ
+GRE,ギリシャ,10 80 161,Eastern Europe,ヨーロッパ,バニラ
+HAN,ハノーファー,255 206 8,Western Europe,ヨーロッパ,バニラ
+HOL,ホラント,230 165 80,Western Europe,ヨーロッパ,バニラ
+HRZ,ヘルツェゴビナ,3 102 56,Eastern Europe,ヨーロッパ,バニラ
+HUN,ハンガリー,205 42 62,Eastern Europe,ヨーロッパ,バニラ
+ICE,アイスランド,100 125 175,Western Europe,ヨーロッパ,バニラ
+IRE,アイルランド,22 155 98,Western Europe,ヨーロッパ,バニラ
+ITA,イタリア,0 146 70,Western Europe,ヨーロッパ,バニラ
+KAL,カルムイク,255 199 44,Eastern Europe,ヨーロッパ,バニラ
+KAR,カレリア,0 156 170,Eastern Europe,ヨーロッパ,バニラ
+KBK,カバルダ＝バルカル,115 193 164,Eastern Europe,ヨーロッパ,バニラ
+KHA,ハカス,51 204 51,Eastern Europe,ヨーロッパ,バニラ
+KOM,コミ,3 124 97,Eastern Europe,ヨーロッパ,バニラ
+KOS,コソボ,208 166 80,Eastern Europe,ヨーロッパ,バニラ
+KSH,カシュビア,124 112 0,Eastern Europe,ヨーロッパ,バニラ
+KUB,クバン,217 21 123,Eastern Europe,ヨーロッパ,バニラ
+LAT,ラトビア,158 48 57,Eastern Europe,ヨーロッパ,バニラ
+LIT,リトアニア,253 185 19,Eastern Europe,ヨーロッパ,バニラ
+LUX,ルクセンブルク,0 161 222,Western Europe,ヨーロッパ,バニラ
+MAC,マケドニア,210 0 0,Eastern Europe,ヨーロッパ,バニラ
+MEK,メクレンブルク,252 195 0,Western Europe,ヨーロッパ,バニラ
+MEL,マリ・エル,233 200 196,Eastern Europe,ヨーロッパ,バニラ
+MLT,マルタ,211 207 173,Western Europe,ヨーロッパ,バニラ
+MNT,モンテネグロ,104 182 182,Eastern Europe,ヨーロッパ,バニラ
+MOL,モルダヴィア,199 0 103,Eastern Europe,ヨーロッパ,バニラ
+NAV,ナバラ,218 18 26,Western Europe,ヨーロッパ,バニラ
+NCC,北コーカサス,54 159 48,Eastern Europe,ヨーロッパ,バニラ
+NEN,ネネツ,112 142 206,Eastern Europe,ヨーロッパ,バニラ
+NIR,北アイルランド,255 153 51,Commonwealth,ヨーロッパ,バニラ
+NOA,北オセチア,243 104 27,Eastern Europe,ヨーロッパ,バニラ
+NOR,ノルウェー,119 41 74,Western Europe,ヨーロッパ,バニラ
+OCC,オクシタニア,105 240 240,Western Europe,ヨーロッパ,バニラ
+POL,ポーランド,227 66 52,Eastern Europe,ヨーロッパ,バニラ
+POR,ポルトガル,0 102 0,Western Europe,ヨーロッパ,バニラ
+PRE,プロイセン,160 160 160,Western Europe,ヨーロッパ,バニラ
+ROM,ルーマニア,252 209 22,Eastern Europe,ヨーロッパ,バニラ
+SAX,ザクセン,22 108 35,Western Europe,ヨーロッパ,バニラ
+SCO,スコットランド,0 101 189,Commonwealth,ヨーロッパ,バニラ
+SER,セルビア,12 64 118,Eastern Europe,ヨーロッパ,バニラ
+SHL,シュレースヴィヒ,51 51 255,Western Europe,ヨーロッパ,バニラ
+SIC,シチリア,248 228 133,Western Europe,ヨーロッパ,バニラ
+SIL,シレジア,255 207 12,Eastern Europe,ヨーロッパ,バニラ
+SLO,スロバキア,158 161 188,Eastern Europe,ヨーロッパ,バニラ
+SLV,スロベニア,138 180 243,Eastern Europe,ヨーロッパ,バニラ
+SOV,ソビエト,125 13 24,Eastern Europe,ヨーロッパ,バニラ
+SPR,スペイン,242 154 6,Western Europe,ヨーロッパ,バニラ
+SRD,サルディーニャ,0 49 165,Western Europe,ヨーロッパ,バニラ
+SWE,スウェーデン,0 106 167,Western Europe,ヨーロッパ,バニラ
+SWI,スイス,255 0 0,Western Europe,ヨーロッパ,バニラ
+TAT,タタールスタン,183 150 115,Eastern Europe,ヨーロッパ,バニラ
+TRA,トランシルヴァニア,0 0 156,Eastern Europe,ヨーロッパ,バニラ
+TUS,トスカーナ,255 128 128,Western Europe,ヨーロッパ,バニラ
+UDM,ウドムルト,165 141 138,Eastern Europe,ヨーロッパ,バニラ
+UKR,ウクライナ,0 80 230,Eastern Europe,ヨーロッパ,バニラ
+VAT,バチカン,236 175 3,Western Europe,ヨーロッパ,バニラ
+VLG,ヴォルガ,147 143 4,Eastern Europe,ヨーロッパ,バニラ
+VNC,ヴェネツィア,194 45 4,Western Europe,ヨーロッパ,バニラ
+WGR,西ドイツ,128 128 128,Western Europe,ヨーロッパ,バニラ
+WLS,ウェールズ,0 171 57,Commonwealth,ヨーロッパ,バニラ
+WUR,ヴュルテンベルク,189 18 32,Western Europe,ヨーロッパ,バニラ
+YUG,ユーゴスラビア,72 73 126,Eastern Europe,ヨーロッパ,バニラ
+ARG,アルゼンチン,116 172 223,South America,新大陸,バニラ
+BAH,バハマ,0 204 204,South America,新大陸,バニラ
+BLZ,ベリーズ,0 60 135,South America,新大陸,バニラ
+BOL,ボリビア,255 180 136,South America,新大陸,バニラ
+BRA,ブラジル,76 145 63,South America,新大陸,バニラ
+CAN,カナダ,119 48 39,Commonwealth,新大陸,バニラ
+CAY,カイエンヌ,7 137 48,South America,新大陸,バニラ
+CHL,チリ,155 101 107,South America,新大陸,バニラ
+COL,コロンビア,222 187 91,South America,新大陸,バニラ
+COS,コスタリカ,152 128 43,South America,新大陸,バニラ
+CRC,キュラソー,124 138 73,South America,新大陸,バニラ
+CUB,キューバ,140 65 166,South America,新大陸,バニラ
+DOM,ドミニカーナ,0 45 98,South America,新大陸,バニラ
+DXL,ディキシーランド,145 163 176,Western Europe,新大陸,バニラ
+ECU,エクアドル,249 146 98,South America,新大陸,バニラ
+ELS,エルサルバドル,0 71 171,South America,新大陸,バニラ
+GDL,グアドループ,131 196 152,South America,新大陸,バニラ
+GUA,グアテマラ,72 49 112,South America,新大陸,バニラ
+GYA,ガイアナ,255 204 153,South America,新大陸,バニラ
+HAI,ハイチ,174 113 113,South America,新大陸,バニラ
+HON,ホンジュラス,128 145 65,South America,新大陸,バニラ
+JAM,ジャマイカ,180 220 0,South America,新大陸,バニラ
+MEX,メキシコ,104 152 83,South America,新大陸,バニラ
+NIC,ニカラグア,146 179 191,South America,新大陸,バニラ
+PAN,パナマ,180 152 177,South America,新大陸,バニラ
+PAR,パラグアイ,57 113 228,South America,新大陸,バニラ
+PRU,ペルー,196 189 204,South America,新大陸,バニラ
+PUE,プエルトリコ,153 153 255,South America,新大陸,バニラ
+SUR,スリナム,55 126 63,South America,新大陸,バニラ
+TRI,トリニダード,96 96 96,South America,新大陸,バニラ
+URG,ウルグアイ,113 144 207,South America,新大陸,バニラ
+USA,アメリカ,56 86 134,Western Europe,新大陸,バニラ
+VEN,ベネズエラ,82 104 122,South America,新大陸,バニラ
+WIN,西インド,255 161 0,South America,新大陸,バニラ
+AST,オーストラリア,57 143 97,Commonwealth,大洋州,バニラ
+FIJ,フィジー,105 179 231,Asia,大洋州,バニラ
+FSM,ミクロネシア,118 179 222,Asia,大洋州,バニラ
+GUM,グアム,60 240 100,Asia,大洋州,バニラ
+HAW,ハワイ,239 239 0,Asia,大洋州,バニラ
+NZL,ニュージーランド,69 86 193,Commonwealth,大洋州,バニラ
+PNG,パプアニューギニア,153 0 76,Asia,大洋州,バニラ
+SAM,サモア,205 20 95,Asia,大洋州,バニラ
+SOL,ソロモン,20 20 90,Asia,大洋州,バニラ
+TAH,タヒチ,206 17 38,Asia,大洋州,バニラ
+D01,,200 100 31,,,動的国家
+D02,,80 150 179,,,動的国家
+D03,,92 92 197,,,動的国家
+D04,,154 69 116,,,動的国家
+D05,,194 140 86,,,動的国家
+D06,,195 149 155,,,動的国家
+D07,,210 106 47,,,動的国家
+D08,,105 147 86,,,動的国家
+D09,,175 162 108,,,動的国家
+D10,,124 140 162,,,動的国家
+D11,,187 79 86,,,動的国家
+D12,,69 157 208,,,動的国家
+D13,,142 79 200,,,動的国家
+D14,,122 179 97,,,動的国家
+D15,,194 140 86,,,動的国家
+AMZ,アマゾン,110 120 170,South America,新大陸,追加国家
+ARB,アラブ,86 151 120,Middle East,アジア,追加国家
+ANH,安徽,105 132 200,Asia,アジア,追加国家
+BDN,バーデン,247 152 12,Western Europe,ヨーロッパ,追加国家
+BLI,バリ,80 135 198,Asia,アジア,追加国家
+BLT,バルト,142 142 128,Eastern Europe,ヨーロッパ,追加国家
+BOR,ボルネオ,141 89 174,Asia,アジア,追加国家
+BRN,ブルネイ,247 224 23,Asia,アジア,追加国家
+CAC,中央アメリカ,103 204 255,South America,新大陸,追加国家
+CAL,カリフォルニア,229 255 204,Western Europe,新大陸,追加国家
+CCS,コーカサス,255 127 80,Asia,アジア,追加国家
+CNK,重慶,143 20 60,Asia,アジア,追加国家
+DAL,ダルマチア,61 141 198,Western Europe,ヨーロッパ,追加国家
+DVN,ドラヴィダ・ナードゥ,138 38 69,Asia,アジア,追加国家
+EQB,赤道ブラジル,67 127 63,South America,新大陸,追加国家
+ETR,東トルキスタン,85 158 226,Asia,アジア,追加国家
+FUJ,福建,211 202 15,Asia,アジア,追加国家
+GAL,ガリツィア,224 71 140,Eastern Europe,ヨーロッパ,追加国家
+GAN,甘粛,153 116 53,Asia,アジア,追加国家
+GBR,グレートブリテン,201 56 93,Western Europe,ヨーロッパ,追加国家
+GND,広東,153 108 51,Asia,アジア,追加国家
+HEN,河南,122 112 173,Asia,アジア,追加国家
+HES,ヘッセン,136 71 37,Western Europe,ヨーロッパ,追加国家
+HNN,湖南,80 135 224,Asia,アジア,追加国家
+HYD,ハイデラバード,222 34 25,Asia,アジア,追加国家
+INC,インドシナ,255 255 0,Asia,アジア,追加国家
+KAT,カタンガ,112 62 90,Africa,アフリカ,追加国家
+KIL,キール,0 18 93,Western Europe,ヨーロッパ,追加国家
+KIV,キヴ,100 125 120,Africa,アフリカ,追加国家
+KUM,クムル,243 244 200,Asia,アジア,追加国家
+MHN,マフノフシチナ,10  0  0,Eastern Europe,ヨーロッパ,追加国家
+NAF,北アフリカ,56 38 134,Africa,アフリカ,追加国家
+NKR,新韓,31 71 136,Asia,アフリカ,追加国家
+NIG,寧夏,105 69 85,Asia,アジア,追加国家
+NTL,ネーデルラント,255 154 0,Western Europe,ヨーロッパ,追加国家
+OTT,オスマン,97 41 46,Asia,アジア,追加国家
+PJB,パンジャーブ,50 127 80,Asia,アジア,追加国家
+QIG,青海,114 71 24,Asia,アジア,追加国家
+RAT,レーテ,147 0 0,Eastern Europe,ヨーロッパ,追加国家
+RHI,ライン,84 194 110,Western Europe,ヨーロッパ,追加国家
+RJN,瑞金,222 41 16,Asia,アジア,追加国家
+RUS,ロシア,72 143 68,Eastern Europe,ヨーロッパ,追加国家
+SBR,南ブラジル,171 174 0,South America,新大陸,追加国家
+SCC,南コーカサス,255 204 0,Asia,アジア,追加国家
+SCH,四川,188 155 71,Asia,アジア,追加国家
+SGH,上海,255 213 9,Asia,アジア,追加国家
+SHD,山東,255 150 50,Asia,アジア,追加国家
+SIB,シベリア,0 94 0,Eastern Europe,ヨーロッパ,追加国家
+SKT,ソコト,182 107 88,Africa,アフリカ,追加国家
+TEX,テキサス,0 0 153,Western Europe,新大陸,追加国家
+TRK,トルキスタン,74 155 120,Asia,アジア,追加国家
+WAF,西アフリカ,134 38 56,Africa,アフリカ,追加国家
+WHN,武漢,8 99 156,Asia,アジア,追加国家
+ZHI,直隷,124 124 124,Asia,アジア,追加国家
