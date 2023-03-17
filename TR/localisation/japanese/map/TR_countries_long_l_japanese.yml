@@ -290,8 +290,8 @@
  HRZ_state:0 "ヘルツェゴビナ国"
  HRZ_state_DEF:0 "ヘルツェゴビナ国"
  
- HUN_crown_lands:0 "神聖なるハンガリーの聖イシュトヴァーン王冠の諸邦"
- HUN_crown_lands_DEF:0 "神聖なるハンガリーの聖イシュトヴァーン王冠の諸邦"
+ HUN_crown_lands:0 "ハンガリー王冠領"
+ HUN_crown_lands_DEF:0 "ハンガリーの聖イシュトヴァーンの王冠諸邦"
  
  
  IRE_republic:0 "アイルランド共和国"
