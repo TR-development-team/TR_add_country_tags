@@ -815,6 +815,8 @@
  
  COT_free_city:0 "自由都市トリエステ"
  COT_free_city_DEF:0 "自由都市トリエステ"
+ COT_freie_reichsstadt:0 "トリエステ帝国自由都市"
+ COT_freie_reichsstadt_DEF:0 "トリエステ帝国自由都市"
  
  DAL_kingdom:0 "ダルマチア王国"
  DAL_kingdom_DEF:0 "ダルマチア王国"
